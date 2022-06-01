@@ -1,0 +1,115 @@
+.main-content{
+  height: 1000px;
+  display: flex;
+}
+.left-section{
+  
+grid-column: 300px;
+background-color: red;
+/* color: yellowgreen; */
+padding: 1rem;
+}
+.profile-details img{
+border-radius: 30%;
+border: 5px solid white;
+display: block;
+margin: auto;
+width: 60%;
+
+}
+.left-section div h1{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+}
+.left-section div p {
+  color: white;
+font-size: 1rem;
+text-align: center;
+padding: 1rem;
+}
+
+.icon{
+  display: flex;
+}
+
+.icon a img{
+  border-radius: 10px;
+border: none;
+width: 25px;
+margin-left:  30px;
+}
+
+.contactInfo{
+  margin-top: 20px;
+}
+
+.contactInfo img{
+width: 25px;
+height: 25px;
+margin-top: 27px;
+border-radius: 30px;
+border: 2px solid black;
+}
+.contactStyle{
+  display: flex;
+}
+.emailStyle{
+  display: flex;
+  margin-top: -40px;
+}
+.locationStyle{
+  display: flex;
+  margin-top: -40px;
+}
+.skills{
+  color: white;
+  text-align: center;
+  /* padding-bottom: 5px; */
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.progress-bar div{
+  border: 1px solid white;
+  height: 4px;
+}
+.skill-name h3{
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+.right-section{
+grid-column: 700px;
+width: 90%;
+background-color: black;
+padding: 1rem;
+}
+.right-main-content{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+.right-title{
+  
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+.right-title h2{
+  text-transform: uppercase;
+  color: rgb(248, 4, 4);
+}
+.right-title p{
+ color: white;
+}
